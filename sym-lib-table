@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "HRCStepTrackerComponents")(type "KiCad")(uri "${KIPRJMOD}/HRCStepTrackerComponents.kicad_sym")(options "")(descr ""))
+)

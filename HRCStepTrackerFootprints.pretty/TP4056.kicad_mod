@@ -1,0 +1,226 @@
+(footprint "TP4056"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.04 -1.17 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5c7aec27-4998-4f78-aa90-98b841b43fb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TP4056"
+		(at -0.04 0.33 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "baf9d0d0-d89f-4e87-8a78-0dc36c253d78")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7be5a18c-195f-4ad0-a7b1-6050ad477fca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe853061-9856-4e77-81dc-c426a0a9b3fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -12.14 -7.27)
+		(end 12.86 -7.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7f3ae0f0-26e2-431e-a91d-8951c78204cd")
+	)
+	(fp_line
+		(start -12.14 7.73)
+		(end -12.14 -7.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aa3cc822-e372-456c-beca-b148cf50156c")
+	)
+	(fp_line
+		(start 12.86 -7.27)
+		(end 12.86 7.73)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "93bb364b-9fb9-4c4d-907b-5f5337bc27aa")
+	)
+	(fp_line
+		(start 12.86 7.73)
+		(end -12.14 7.73)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b8bbeb30-9a5b-4dff-b934-07759762a9f7")
+	)
+	(fp_text user "OUT-"
+		(at 4.8 5.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "190db725-6cea-4740-bdfa-312bd774e036")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "B-"
+		(at 6.8 3.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8c47d045-3925-4572-b006-9e1cfccf084e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "B+"
+		(at 6.8 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c8081ed6-2c02-414c-9ba7-852550e7c693")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "OUT+"
+		(at 5.08 -4.6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f0fffd06-263c-430c-b5d3-9ae841ab685f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.04 1.83 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e51fcb96-be3a-4fb3-8106-c58bc975bf5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 10.16 -5.08)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aa110790-2bb8-4590-abde-81bfad0255ad")
+	)
+	(pad "2" thru_hole rect
+		(at 10.16 -2.54)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3897e4fd-8b2a-47ae-86dd-22762d6d9a7d")
+	)
+	(pad "3" thru_hole rect
+		(at 10.16 2.54)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3d97a631-0813-4600-aec8-2b7a3a64a21a")
+	)
+	(pad "4" thru_hole rect
+		(at 10.16 5.08)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "48992b3b-b779-4cd1-b0b8-d5a625fe69cd")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "9d23894a-b8a5-454d-9d9a-31c9fefededd")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -12.14 -7.27) (xy 12.86 -7.27) (xy 12.86 7.73) (xy -12.14 7.73)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
